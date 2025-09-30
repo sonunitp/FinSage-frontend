@@ -1,5 +1,5 @@
 // Define your base URL here
-const BASE_URL = "https://finance-backend-32vn.onrender.com/api/v1";
+const BASE_URL = "http://localhost:4000/api/v1";
 
 // Auth endpoints
 export const AUTH_API = {

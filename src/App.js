@@ -12,7 +12,7 @@ import { useGlobalContext } from './context/globalContext';
 import { AuthContext } from './context/AuthContext';
 import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
-import History from './components/History/History';
+import HistoryStyled from './components/History/History';
 
 function App() {
   const [active, setActive] = useState(1);
@@ -24,7 +24,7 @@ function App() {
       case 1:
         return <Dashboard />;
       case 2:
-        return <Dashboard />;
+        return <HistoryStyled />;
       case 3:
         return <Income />;
       case 4:
